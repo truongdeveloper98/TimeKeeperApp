@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.Data", "TimeKeeper.Data\TimeKeeper.Data.csproj", "{960933B6-FA69-490D-AEB0-60789A1EFEB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeKeeper.Data", "TimeKeeper.Data\TimeKeeper.Data.csproj", "{960933B6-FA69-490D-AEB0-60789A1EFEB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.Application", "TimeKeeper.Application\TimeKeeper.Application.csproj", "{3F4D693F-B8A4-41B4-BEB2-4D583FE63172}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeKeeper.Application", "TimeKeeper.Application\TimeKeeper.Application.csproj", "{3F4D693F-B8A4-41B4-BEB2-4D583FE63172}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.BackendAPI", "TimeKeeper.BackendAPI\TimeKeeper.BackendAPI.csproj", "{3344C537-7A61-417A-B619-C0A28A118C82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeKeeper.WebApp", "TimeKeeper.WebApp\TimeKeeper.WebApp.csproj", "{5B05F638-5BB8-40D3-98F7-5DA0C63F86C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.WebApp", "TimeKeeper.WebApp\TimeKeeper.WebApp.csproj", "{5B05F638-5BB8-40D3-98F7-5DA0C63F86C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.ViewModels", "TimeKeeper.ViewModels\TimeKeeper.ViewModels.csproj", "{9BD5C566-F962-4328-B5C2-8230B9E547AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.BackendApi", "TimeKeeper.BackendApi\TimeKeeper.BackendApi.csproj", "{062CBC36-4164-43FE-82B5-65D490AF8F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.Utilities", "TimeKeeper.Utilities\TimeKeeper.Utilities.csproj", "{F610FF88-C656-4701-93BB-ED51BB6E78E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.ApiClient", "TimeKeeper.ApiClient\TimeKeeper.ApiClient.csproj", "{BF4AB015-EB42-4E37-853C-066AFE582784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.AdminApp", "TimeKeeper.AdminApp\TimeKeeper.AdminApp.csproj", "{981B46D0-AA8D-4239-B30B-52B92E589952}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +33,30 @@ Global
 		{3F4D693F-B8A4-41B4-BEB2-4D583FE63172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F4D693F-B8A4-41B4-BEB2-4D583FE63172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F4D693F-B8A4-41B4-BEB2-4D583FE63172}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3344C537-7A61-417A-B619-C0A28A118C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3344C537-7A61-417A-B619-C0A28A118C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3344C537-7A61-417A-B619-C0A28A118C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3344C537-7A61-417A-B619-C0A28A118C82}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5B05F638-5BB8-40D3-98F7-5DA0C63F86C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5B05F638-5BB8-40D3-98F7-5DA0C63F86C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B05F638-5BB8-40D3-98F7-5DA0C63F86C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B05F638-5BB8-40D3-98F7-5DA0C63F86C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD5C566-F962-4328-B5C2-8230B9E547AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD5C566-F962-4328-B5C2-8230B9E547AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD5C566-F962-4328-B5C2-8230B9E547AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD5C566-F962-4328-B5C2-8230B9E547AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062CBC36-4164-43FE-82B5-65D490AF8F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062CBC36-4164-43FE-82B5-65D490AF8F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062CBC36-4164-43FE-82B5-65D490AF8F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062CBC36-4164-43FE-82B5-65D490AF8F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F610FF88-C656-4701-93BB-ED51BB6E78E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F610FF88-C656-4701-93BB-ED51BB6E78E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F610FF88-C656-4701-93BB-ED51BB6E78E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F610FF88-C656-4701-93BB-ED51BB6E78E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4AB015-EB42-4E37-853C-066AFE582784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4AB015-EB42-4E37-853C-066AFE582784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4AB015-EB42-4E37-853C-066AFE582784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4AB015-EB42-4E37-853C-066AFE582784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981B46D0-AA8D-4239-B30B-52B92E589952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981B46D0-AA8D-4239-B30B-52B92E589952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981B46D0-AA8D-4239-B30B-52B92E589952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981B46D0-AA8D-4239-B30B-52B92E589952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

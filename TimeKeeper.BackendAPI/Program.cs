@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TimeKeeper.BackendAPI
+namespace TimeKeeper.BackendApi
 {
     public class Program
     {

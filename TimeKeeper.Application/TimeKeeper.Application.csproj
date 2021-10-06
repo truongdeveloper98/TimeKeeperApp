@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TimeKeeper.Data\TimeKeeper.Data.csproj" />
+    <ProjectReference Include="..\TimeKeeper.ViewModels\TimeKeeper.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>
